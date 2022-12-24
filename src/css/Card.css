@@ -1,0 +1,33 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    box-shadow: 0 0 10px rgb(187 187 187 / 30%);
+    cursor: pointer;
+    /* z-index: 2; */
+}
+
+.card_height {
+    height: 360px !important;
+}
+
+.hover-text-container {
+    position: relative;
+}
+
+.hover-text-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    /* opacity: 0; */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.4s linear;
+    cursor: pointer;
+}
+
+.card:hover .hover-text-container::after {
+    width: 100%;
+}

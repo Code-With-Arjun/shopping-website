@@ -1,0 +1,10 @@
+.btn_style{
+    background-color:#764abc;
+    /* border-color:#764abc; */
+    color: white;
+    margin: 0.2rem 0.5rem;
+    /* outline:'none'; */
+    padding:0.2rem 0.4rem;
+    border: 1px solid #764abc;
+
+}
